@@ -55,7 +55,6 @@ public class SecurityConfiguration {
 
         roles.add(simpleGrantedAuthority);
 
-
         UserDetails userDetails = new org.springframework.security.core.userdetails.User(
                 "admin",
                 "password",
